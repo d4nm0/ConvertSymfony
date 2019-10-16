@@ -15,12 +15,13 @@ class PageController extends AbstractController{
      */
     public function getPageController(){
      return $this->render('base.html.twig');
+     $result = 0;
     }
 
      /**
      * @Route("/", methods={"POST"})
      */
     public function data(){
-        return $this->render('base.html.twig');
+        $result = 0;
        }
 }
